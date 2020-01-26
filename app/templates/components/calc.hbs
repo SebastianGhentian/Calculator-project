@@ -1,0 +1,27 @@
+{{yield}}
+<div id="calculator">
+    <div class="top">
+      <div class="screen">{{value}}</div>
+    </div>
+
+    <div class="keys">
+      <span class="operatora" {{action 'clear'}}>C</span>
+      <span class="operatora" {{action 'del'}}>CE</span>
+      <span class="operatora" style="font-size: 28px;" {{action 'inser' '÷'}}>&divide;</span>
+      <span class="operatora" style="font-size: 28px;" {{action 'inser' '×'}}>&times;</span>
+      <span {{action 'inser' '7'}}>7</span>
+      <span {{action 'inser' '8'}}>8</span>
+      <span {{action 'inser' '9'}}>9</span>
+      <span class="operatora" style="font-size: 28px;" {{action 'inser' '-'}}>-</span>
+      <span {{action 'inser' '4'}}>4</span>
+      <span {{action 'inser' '5'}}>5</span>
+      <span {{action 'inser' '6'}}>6</span>
+      <span class="operatora" style="font-size: 28px;" {{action 'inser' '+'}}>+</span>
+      <span {{action 'inser' '1'}}>1</span>
+      <span {{action 'inser' '2'}}>2</span>
+      <span {{action 'inser' '3'}}>3</span>
+      <span class="zero" {{action 'inser' '0'}}>0</span>
+      <span {{action 'inser' '.'}}>.</span>
+      <span class="operator equal" {{action 'equal'}}>=</span>
+    </div>
+  </div>
