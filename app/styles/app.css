@@ -11,8 +11,8 @@ body {
     height: 100%;
     max-height: 100vh;
     padding-top: calc(50vh - 23vw);
-    background-image: -webkit-linear-gradient(top left, #5cc8ff 0%, #d63c6b 100%);
-    background-image: linear-gradient(to bottom right, #5cc8ff 0%, #d63c6b 100%);
+    background-image: -webkit-linear-gradient(top left, #5cc8ff 0%, #F39C12  100%);
+    background-image: linear-gradient(to bottom right, #5cc8ff 0%, #F39C12  100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -62,7 +62,7 @@ body {
   cursor: pointer;
   width: 70px;
   height: 60px;
-  background: #fafbfdd8;
+  background: #ffffff;
   box-shadow: 0 0 0 1px #e3e7ea;
   color: #999a9d;
   line-height: 60px;
@@ -83,7 +83,7 @@ span.operator {
 }
 
 .keys span.operatora {
-  background: #615e5dec;
+  background: #424949;
   color: #999a9d;
 }
 
